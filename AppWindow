@@ -1,0 +1,5 @@
+try:
+    import Tkinter as TK
+except ImportError:
+    print('Using Python version 3')
+    import tkinter as TK
